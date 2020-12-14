@@ -3,7 +3,7 @@ import '../css/index.css';
 import Logo from '../images/Y.png';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Main from './Main';
-import About from './About';
+import Contact from './Contact';
 
 interface Props {
 }
@@ -16,11 +16,6 @@ export default class Header extends React.Component<Props, State> {
   state: State = {
     tabIndex: 0
   };
-
-  doubleSum = (a: number, b: number) => {
-    var abc = a + b;
-    return abc;
-  }
 
   render() {
     return (
@@ -40,14 +35,14 @@ export default class Header extends React.Component<Props, State> {
                   <div className="tab-name">About</div>
                 </Tab>
                 <Tab>
-                  <div className="tab-name">Contact Us{this.doubleSum(2, 4)}</div>
+                  <div className="tab-name">Contact Us</div>
                 </Tab>
               </TabList>
               <TabPanel>
                 <Main />
               </TabPanel>
               <TabPanel>
-                <About />
+                <Contact />
               </TabPanel>
             </Tabs>
           </header>

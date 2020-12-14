@@ -7,7 +7,7 @@ interface Props {
 interface State {
 }
 
-export default class About extends React.Component<Props, State> {
+export default class Contact extends React.Component<Props, State> {
     state: State = {
         count: 0
     };
@@ -16,7 +16,7 @@ export default class About extends React.Component<Props, State> {
             <div className="App">
                 <header className="App-main">
                     <p>
-                        About
+                        Please contact:
           </p>
                 </header>
             </div>

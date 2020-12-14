@@ -16,7 +16,7 @@ export default class Main extends React.Component<Props, State> {
             <div className="App">
                 <header className="App-main">
                     <p>
-                        YIPL
+                        This page is currently under construction.
           </p>
                 </header>
             </div>
